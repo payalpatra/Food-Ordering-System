@@ -34,6 +34,9 @@
  ```sh
   npm run watch
    ```  
+#### STEP 5
+##### Since the whole Menu Section data is dynamically pulled from the Database. Add the json data to the Database (items collection). The project folder consists of a menus.json file. Copy the whole data set and add it to the items collection of the Database. 
+ 
  ## How to get access to the Admin Role ??
  #### After Successfull Setup, Register as a user (by default your role will be Customer). Then replace the role of the user manually as the " admin "  in the Database.(users collection).
  ![Users Role](https://user-images.githubusercontent.com/67522406/108376048-95a7ea00-7228-11eb-9e5e-ffbcdb19105d.png)

@@ -1,0 +1,192 @@
+@import "./variables";
+@import "~noty/src/noty.scss";
+@import "~noty/src/themes/mint.scss";
+
+// Body
+body {
+  font-family: "lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: $dark;
+}
+
+// Nav Main
+.nav-main {
+  background-color: $blue;
+}
+
+// Nav Cart
+nav li:last-child a {
+  background: $primary;
+  &:hover {
+    background-color: $primary-hover;
+  }
+}
+// Nav Cart Counter
+nav li:last-child .cart-counter {
+  color: $dark;
+}
+// Nav Links
+nav li a {
+  transition: $smooth;
+  color: $primary;
+  font-size: large !important;
+  font-weight: 500 !important;
+  &:hover {
+    color: $primary-hover;
+  }
+}
+// Hero Section
+section.hero {
+  background: $pure;
+}
+.btn-primary {
+  background-color: $primary;
+
+  transition: $smooth;
+  &:hover {
+    background-color: $primary-hover;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+// Menu section
+.menu {
+  background: $primary !important;
+}
+.box {
+  border: 1px solid black;
+  padding: 5px;
+  width: 350px;
+  background-color: $grey;
+}
+
+@media (max-width: 540px) {
+  .box {
+    margin-left: 75px;
+  }
+}
+@media (max-width: 411px) {
+  .box {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 1335px) {
+  .box {
+    border: 1px solid black;
+    padding: 5px;
+    width: 200px;
+    background-color: $grey;
+  }
+}
+@media (max-width: 767px) {
+  .box {
+    margin-left: 90px;
+  }
+}
+// Menu add button
+.add-to-cart {
+  border: 2px solid $primary;
+  color: $primary;
+  transition: $smooth;
+  &:hover {
+    background-color: $primary;
+    border-color: $pure;
+    color: $pure;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+// Order Cart Section
+section.cart {
+  background-color: $secondary;
+  .amount {
+    color: $primary;
+  }
+}
+
+.order-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding: 5px;
+  height: 160px;
+  width: 270px;
+  background-color: $grey;
+}
+.order-box img {
+  object-fit: contain;
+  height: 150px;
+}
+@media (max-width: 415px) {
+  .order-box {
+    border: none;
+  }
+  .order-text {
+    font-size: 12px;
+    margin-left: 7px;
+  }
+}
+// Login Section
+section.login {
+  background-color: $secondary;
+  min-height: calc(100vh - 86px);
+  a {
+    color: $primary;
+    &:hover {
+      color: $primary-hover;
+    }
+  }
+}
+
+// Notification
+.noty_theme__mint {
+  border-radius: 50px !important;
+  padding-left: 8px !important;
+  background-color: rgb(110, 182, 52) !important;
+}
+
+.noty_body {
+  margin-left: 45px;
+}
+
+// Customer's Id
+a.link {
+  color: $primary;
+}
+
+@media (max-width: 814px) {
+  .container {
+    max-width: 90%;
+  }
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+@media (max-width: 570px) {
+  .nav-cart {
+    max-width: 20px;
+  }
+  .nav-img {
+    max-width: 100px;
+  }
+}
+
+@media (max-width: 670px) {
+  .container {
+    max-width: 94%;
+  }
+}
+@media (max-width: 440px) {
+  .nav-img {
+    max-width: 70px;
+  }
+  .nav-links {
+    max-width: 500px;
+  }
+}

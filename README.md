@@ -35,9 +35,10 @@
   npm run watch
    ```  
  ## How to get access to the Admin Role ??
-  #### After Successfull Setup, Register as a user (by default your role will be Customer). Then replace the role of the user manually as the " admin "  in the Database.(users collection).
+ #### After Successfull Setup, Register as a user (by default your role will be Customer). Then replace the role of the user manually as the " admin "  in the Database.(users collection).
  ![Users Role](https://user-images.githubusercontent.com/67522406/108376048-95a7ea00-7228-11eb-9e5e-ffbcdb19105d.png)
-  
+ ## Route to admin orders page ??
+ #### Make sure you login through the admin account (it's protected and can't be accessed other than admin role) , After Successful login you can access the admin orders page with this route http://localhost:3000/admin/orders
  ## Snapshots
  ### Home Page
  ![Home](https://user-images.githubusercontent.com/67522406/108368921-01865480-7221-11eb-9b3b-d5d2d03e6078.png)

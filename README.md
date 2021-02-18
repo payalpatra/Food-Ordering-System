@@ -18,7 +18,7 @@
    
 #### STEP 3
 
-##### Create .env file in the server directory and add your Database Connection Url with the following variable name
+##### Create .env file in the root directory and add your Database Connection Url & Cookie secret with the following variable name
 ###### COOKIE_SECRET = thisismysecret
 ###### DB_CONNECTION = ""
 

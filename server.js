@@ -82,7 +82,6 @@ app.set("view engine", "ejs");
 require("./routes/web")(app);
 
 // Listen
-socket = io.listen(process.env.PORT);
 app.listen(socket || 3000, function () {
   console.log("server is running in port 3000");
 });

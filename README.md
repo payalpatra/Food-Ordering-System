@@ -47,6 +47,14 @@
 ![admin panel](https://user-images.githubusercontent.com/67522406/108370266-7b6b0d80-7222-11eb-9e6d-45a307440839.png)
  ### Empty Cart Page
 ![empty cart](https://user-images.githubusercontent.com/67522406/108370583-d69d0000-7222-11eb-9fd4-c93e58fc9e00.png)
+### Give this a ✨ if you like it 😊
+## Author
+### Payal Patra
+#### Let's Connect 🚀
+
+<a href="https://linkedin.com/in/payalpatra105" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="payalpatra105" height="30" width="40" /></a>
+<a href="https://github.com/payalpatra" target="blank"><img align="center" src="https://www.svgrepo.com/show/68072/github-logo-face.svg" alt="payalpatra105" height="30" width="40" /></a>
+<a href="https://instagram.com/p_iconic_" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="p_iconic_" height="30" width="40" /></a>
 
 
 

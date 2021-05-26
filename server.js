@@ -82,6 +82,22 @@ app.set("view engine", "ejs");
 require("./routes/web")(app);
 
 // Listen
-app.listen(process.env.PORT || 3000, function () {
-  console.log("server is running in port 3000");
-});
+// app.listen(process.env.PORT || 3000, function () {
+//   console.log("server is running in port 3000");
+// });
+
+
+if(process.env.NODE_ENV === 'production'){
+  app.use(express.static(path.join(__dirname, '/frontend/build')));
+  app.get("*", (req, res)=>{
+   res.sendFile(path.join(__dirname, 'frontend',"build","index.html"));
+  })
+}else{
+  app.get("/", (req,res)=>{
+    res.send("Hey There , Greetings From The Server. Have a Good Day :)")
+  })
+}
+
+
+const port = process.env.PORT || 5000;
+app.listen(port, () => console.log("serve at http://localhost:5000"));

@@ -7,11 +7,9 @@
     "node": "14.15.5"
   },
   "scripts": {
-    "dev": "nodemon server.js",
-    "server": "node server.js",
-    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch": "npm run development -- --watch",
-    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "start": "node server.js",
+    "start:dev": "nodemon server.js",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install && npm run build"
   },
   "keywords": [],
   "author": "",
